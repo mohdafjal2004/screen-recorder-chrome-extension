@@ -1,0 +1,22 @@
+{
+  "name": "Free Screen Recorder",
+  "manifest_version": 3,
+  "description": "A completey free screen recorder extension for chrome",
+  "version": "1.0.0",
+  "icons": {
+    "128": "icons/record_128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/record_16.png",
+      "48": "icons/record_48.png",
+      "128": "icons/record_128.png"
+    }
+  },
+  "host_permissions": ["http://*/", "https://*/*"],
+  "permissions": ["scripting", "tabs", "activeTab"]
+}

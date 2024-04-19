@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(229, 106, 81, 0.73);
+}
+
+.content {
+    padding: 10px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn_container {
+    display: flex;
+    gap: 10px;
+}
+
+.button_cont button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: teal;
+    color: white;
+}
+
+.button_cont button:hover {
+    box-shadow: 10px 0px 10px #eee;
+    cursor: pointer;
+}
